@@ -1,12 +1,17 @@
 import Message from "./Message";
+import { Button } from "@/components/ui/button";
 
 function App() {
   return (
-    <div className="flex min-h-screen block items-center justify-center bg-black">
-      <h1 className="text-5xl font-bold text-blue-500">
-        <Message />
-      </h1>
-    </div>
+    <main className="flex min-h-screen items-center justify-center bg-slate-950">
+      <div className="space-y-4 text-center">
+        <h1 className="text-4xl font-bold text-white">
+          shadcn + Tailwind Working
+        </h1>
+
+        <Button>Test Button</Button>
+      </div>
+    </main>
   );
 }
 
